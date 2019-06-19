@@ -15,6 +15,7 @@ public class Testcontroller {
     public  String getdata(){
         Date d= Common.getCurDate();
         SimpleDateFormat  df=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println("erfefe");
    return  "当前时间"+df.format(d).toString();
     }
 }
